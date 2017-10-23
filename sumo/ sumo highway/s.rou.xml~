@@ -1,0 +1,57 @@
+<routes>
+    <vType accel="3.0" decel="3.0" id="type0" length="8.0" maxSpeed="16.6" sigma="0.0" />
+    <vType accel="5.0" decel="5.0" id="type1" length="10.0" maxSpeed="19.4" sigma="0.0" />
+    <vType accel="3.0" decel="3.0" id="type2" length="3.0" maxSpeed="22.2" sigma="0.0" />
+    <vType accel="5.0" decel="5.0" id="type3" length="3.0" maxSpeed="22.2" sigma="0.0" />
+    <vType accel="3.0" decel="3.0" id="type4" length="3.0" maxSpeed="25.0" sigma="0.0" />
+    <vType accel="5.0" decel="5.0" id="type5" length="3.0" maxSpeed="25.0" sigma="0.0" />
+    <vType accel="2.0" decel="2.0" id="type6" length="10.0" maxSpeed="16.6" sigma="0.0" />
+    
+    <routeDistribution id="routedist0">
+    	<route id="route1" edges="1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1"/>
+    	<route id="route2" edges="3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1"/>
+    	
+    </routeDistribution>
+
+    <routeDistribution id="routedist2">
+		    	<route id="route3" edges="3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    			1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+		    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1"/>
+    </routeDistribution>
+
+    <routeDistribution id="routedist3">
+    	<route id="route4" edges="1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1
+    	1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1 1to2 2to3 3to2 2to1"/>
+    </routeDistribution>
+
+<vehicle id="0" type="type4" route="routedist0" depart="13" color="1,0,0"/>
+<vehicle id="1" type="type0" route="routedist0" depart="27" color="1,0,0"/>
+<vehicle id="2" type="type6" route="routedist0" depart="43" color="1,0,0"/>
+<vehicle id="3" type="type4" route="routedist0" depart="51" color="1,0,0"/>
+<vehicle id="4" type="type1" route="routedist0" depart="57" color="1,0,0"/>
+<vehicle id="5" type="type6" route="routedist0" depart="72" color="1,0,0"/>
+<vehicle id="6" type="type5" route="routedist0" depart="100" color="1,0,0"/>
+<vehicle id="7" type="type4" route="routedist0" depart="119" color="1,0,0"/>
+<vehicle id="8" type="type4" route="routedist0" depart="123" color="1,0,0"/>
+<vehicle id="9" type="type1" route="routedist0" depart="132" color="1,0,0"/>
+<vehicle id="10" type="type2" route="routedist0" depart="136" color="1,0,0"/>
+<vehicle id="11" type="type4" route="routedist0" depart="162" color="1,0,0"/>
+<vehicle id="12" type="type2" route="routedist0" depart="170" color="1,0,0"/>
+<vehicle id="13" type="type4" route="routedist0" depart="180" color="1,0,0"/>
+<vehicle id="14" type="type2" route="routedist0" depart="196" color="1,0,0"/>
+<vehicle id="15" type="type0" route="routedist0" depart="210" color="1,0,0"/>
+<vehicle id="16" type="type5" route="routedist0" depart="224" color="1,0,0"/>
+<vehicle id="17" type="type3" route="routedist0" depart="227" color="1,0,0"/>
+<vehicle id="18" type="type4" route="routedist0" depart="269" color="1,0,0"/>
+<vehicle id="19" type="type5" route="routedist0" depart="278" color="1,0,0"/>
+</routes>
+
+
+</routes>
+
+

@@ -1,0 +1,11 @@
+
+<nodes>
+    <!-- <node id="1" x="-50" y="+100.0"/>
+    <node id="2" x="+50.0" y="+100.0" type="traffic_light"/>
+    <node id="3" x="-50.0" y="-20.0" type="traffic_light"/>
+    <node id="4" x="+50.0" y="-20.0" type="traffic_light"/>
+    <node id="5" x="0.0" y="+50.0" type="traffic_light"/> -->
+    <node id="separate_0" x="-100.0" y="100.0"/>
+    <node id="separate_1" x="-100.0" y="-50.0"/>
+    <node id="separate_2" x="-10.0" y="100"/>
+</nodes>

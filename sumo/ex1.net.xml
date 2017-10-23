@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Oct 23 12:37:22 2017 by SUMO netconvert Version 0.28.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="ex1.nod.xml"/>
+        <edge-files value="ex1.edg.xml"/>
+        <type-files value="ex1.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="ex1.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="100.00,50.00" convBoundary="0.00,0.00,90.00,150.00" origBoundary="-100.00,-50.00,-10.00,100.00" projParameter="!"/>
+
+    <type id="a" numLanes="1" speed="10.00"/>
+    <type id="b" numLanes="2" speed="15.00"/>
+    <type id="c" numLanes="3" speed="20.00"/>
+    <type id="d" numLanes="4" speed="25.00"/>
+
+    <edge id=":separate_0_0" function="internal">
+        <lane id=":separate_0_0_0" index="0" speed="13.90" length="7.90" shape="3.25,151.65 1.11,151.34 -0.43,150.43 -1.34,148.89 -1.65,146.75"/>
+    </edge>
+    <edge id=":separate_0_1" function="internal">
+        <lane id=":separate_0_1_0" index="0" speed="13.90" length="2.58" shape="1.65,146.75 1.75,147.45 2.05,147.95 2.55,148.25 3.25,148.35"/>
+    </edge>
+    <edge id=":separate_1_0" function="internal">
+        <lane id=":separate_1_0_0" index="0" speed="13.90" length="19.99" shape="-1.65,11.73 -1.08,4.94 0.63,2.26 3.47,3.68 7.45,9.21"/>
+    </edge>
+    <edge id=":separate_1_1" function="internal">
+        <lane id=":separate_1_1_0" index="0" speed="13.90" length="6.53" shape="4.62,10.91 3.32,9.10 2.39,8.64 1.84,9.52 1.65,11.73"/>
+    </edge>
+    <edge id=":separate_2_0" function="internal">
+        <lane id=":separate_2_0_0" index="0" speed="13.90" length="11.74" shape="88.46,144.23 89.87,147.48 89.64,149.79 87.77,151.19 84.26,151.65"/>
+    </edge>
+    <edge id=":separate_2_1" function="internal">
+        <lane id=":separate_2_1_0" index="0" speed="13.90" length="3.83" shape="84.26,148.35 85.41,148.20 86.02,147.74 86.09,146.99 85.63,145.93"/>
+    </edge>
+
+    <edge id="0to1" from="separate_0" to="separate_1" priority="-1">
+        <lane id="0to1_0" index="0" speed="13.90" length="135.02" shape="-1.65,146.75 -1.65,11.73"/>
+    </edge>
+    <edge id="0to2" from="separate_0" to="separate_2" priority="-1">
+        <lane id="0to2_0" index="0" speed="13.90" length="81.01" shape="3.25,148.35 84.26,148.35"/>
+    </edge>
+    <edge id="1to0" from="separate_1" to="separate_0" priority="-1">
+        <lane id="1to0_0" index="0" speed="13.90" length="135.02" shape="1.65,11.73 1.65,146.75"/>
+    </edge>
+    <edge id="1to2" from="separate_1" to="separate_2" priority="-1">
+        <lane id="1to2_0" index="0" speed="13.90" length="157.45" shape="7.45,9.21 88.46,144.23"/>
+    </edge>
+    <edge id="2to0" from="separate_2" to="separate_0" priority="-1">
+        <lane id="2to0_0" index="0" speed="13.90" length="81.01" shape="84.26,151.65 3.25,151.65"/>
+    </edge>
+    <edge id="2to1" from="separate_2" to="separate_1" priority="-1">
+        <lane id="2to1_0" index="0" speed="13.90" length="157.45" shape="85.63,145.93 4.62,10.91"/>
+    </edge>
+
+    <junction id="separate_0" type="priority" x="0.00" y="150.00" incLanes="2to0_0 1to0_0" intLanes=":separate_0_0_0 :separate_0_1_0" shape="3.25,153.25 3.25,146.75 -3.25,146.75">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="separate_1" type="priority" x="0.00" y="0.00" incLanes="0to1_0 2to1_0" intLanes=":separate_1_0_0 :separate_1_1_0" shape="-3.25,11.73 3.25,11.73 8.82,8.39">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="separate_2" type="priority" x="90.00" y="150.00" incLanes="1to2_0 0to2_0" intLanes=":separate_2_0_0 :separate_2_1_0" shape="89.83,143.41 84.26,146.75 84.26,153.25">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+
+    <connection from="0to1" to="1to2" fromLane="0" toLane="0" via=":separate_1_0_0" dir="l" state="M"/>
+    <connection from="0to2" to="2to1" fromLane="0" toLane="0" via=":separate_2_1_0" dir="r" state="M"/>
+    <connection from="1to0" to="0to2" fromLane="0" toLane="0" via=":separate_0_1_0" dir="r" state="M"/>
+    <connection from="1to2" to="2to0" fromLane="0" toLane="0" via=":separate_2_0_0" dir="l" state="M"/>
+    <connection from="2to0" to="0to1" fromLane="0" toLane="0" via=":separate_0_0_0" dir="l" state="M"/>
+    <connection from="2to1" to="1to0" fromLane="0" toLane="0" via=":separate_1_1_0" dir="r" state="M"/>
+
+    <connection from=":separate_0_0" to="0to1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":separate_0_1" to="0to2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":separate_1_0" to="1to2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":separate_1_1" to="1to0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":separate_2_0" to="2to0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":separate_2_1" to="2to1" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>
