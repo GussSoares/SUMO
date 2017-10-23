@@ -22,6 +22,5 @@
     <route id="cicle_inv" edges="0to2 2to1 1to0"/>
     <flow id="carflow_test" type="Car" beg="0" end="0" number="2" route="cicle" color="1,1,1"/>
     <flow id="carflow2" type="Car" beg="0" end="0" number="2" route="cicle_inv" color="0,1,1"/>
-    <stop busStop="separate_0" duration="30"/>
         <!-- <stop busStop="station1" duration="30"> -->
 </routes>
