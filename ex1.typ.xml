@@ -1,6 +1,0 @@
-<types>
-    <type id="a" numLanes="1" speed="10"/>
-    <type id="b" numLanes="2" speed="15"/>
-    <type id="c" numLanes="3" speed="20"/>
-    <type id="d" numLanes="4" speed="25"/>
-</types>
