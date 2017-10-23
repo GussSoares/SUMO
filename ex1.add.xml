@@ -1,0 +1,57 @@
+<additionals>
+    <!-- <rerouter id="rerouter_0" edges="road1_2">
+        <interval end="1e9">
+            <destProbReroute id="road2_1"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_1" edges="road2_1">
+        <interval end="1e9">
+            <destProbReroute id="road1_2"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_2" edges="road3_4">
+        <interval end="1e9">
+            <destProbReroute id="road4_3"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_3" edges="road4_3">
+        <interval end="1e9">
+            <destProbReroute id="road3_4"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_4" edges="road1_3">
+        <interval end="1e9">
+            <destProbReroute id="road3_1"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_5" edges="road3_1">
+        <interval end="1e9">
+            <destProbReroute id="road1_3"/>
+        </interval>
+    </rerouter> -->
+
+    <rerouter id="rerouter_6" edges="0to1">
+        <interval end="1e9">
+            <destProbReroute id="1to2"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_7" edges="1to2">
+        <interval end="1e9">
+            <destProbReroute id="0to1"/>
+        </interval>
+    </rerouter>
+
+    <rerouter id="rerouter_8" edges="0to2">
+        <interval end="1e9">
+            <destProbReroute id="1to0"/>
+        </interval>
+    </rerouter>
+    <rerouter id="rerouter_9" edges="1to0">
+        <interval end="1e9">
+            <destProbReroute id="0to2"/>
+        </interval>
+    </rerouter>
+
+</additionals>
