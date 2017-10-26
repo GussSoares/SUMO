@@ -1,0 +1,4 @@
+<add>
+    <busStop id="busStop#1" name="PARADA 1" lane="0to1_0" startPos="54.10" endPos="64.10" lines="bus_1"/>
+    <busStop id="busStop#2" name="PARADA 2" lane="0to1_0" startPos="141.65" endPos="151.65" lines="bus_1"/>
+</add>
