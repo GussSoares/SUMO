@@ -1,7 +1,18 @@
 <routes>
     <vType id="Car" accel="1" decel="1" length="3" maxSpeed="60" sigma="0" guiShape="rail/light"/>
-    <route id="route_1" edges="1to2 2to5 5to7 7to6"/>
-    <route id="route_2" edges="9to8 8to5 5to2 2to1"/>
+
+    <route id="route_0" edges=""/>
+    <route id="route_1" edges=""/>
+    <route id="route_2" edges="1"/>
+    <route id="route_3" edges=""/>
+    <route id="route_4" edges=""/>
+    <route id="route_5" edges=""/>
+    <route id="route_6" edges=""/>
+    <route id="route_7" edges=""/>
+    <route id="route_8" edges=""/>
+    <route id="route_9" edges=""/>
+    <route id="route_10" edges=""/>
+    <route id="route_11" edges=""/>
 
     <flow id="flow1" type="Car" beg="0" end="0" number="3" route="route_2" color="1,1,1"/>
 </routes>

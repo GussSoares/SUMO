@@ -1,4 +1,10 @@
 <add>
     <busStop id="busStop#1" name="PARADA 1" lane="0to1_0" startPos="54.10" endPos="64.10" lines="bus_1"/>
     <busStop id="busStop#2" name="PARADA 2" lane="0to1_0" startPos="141.65" endPos="151.65" lines="bus_1"/>
+    <busStop id="busStop#3" name="PARADA 3" lane="4to0_0" startPos="128.63" endPos="138.63" lines="bus_1"/>
+    <busStop id="busStop#4" name="PARADA 4" lane="4to0_0" startPos="81.27" endPos="91.27" lines="bus_1"/>
+    <busStop id="busStop#5" name="PARADA 5" lane="4to0_0" startPos="31.01" endPos="41.01" lines="bus_1"/>
+    <busStop id="busStop#6" name="PARADA 6" lane="1to4_0" startPos="151.77" endPos="161.77" lines="bus_1"/>
+    <busStop id="busStop#7" name="PARADA 7" lane="1to4_0" startPos="105.82" endPos="115.82" lines="bus_1"/>
+    <busStop id="busStop#8" name="PARADA 8" lane="1to4_0" startPos="55.70" endPos="65.70" lines="bus_1"/>
 </add>
