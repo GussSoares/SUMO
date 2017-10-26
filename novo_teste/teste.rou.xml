@@ -1,6 +1,7 @@
 <routes>
-    <vType if="" accel="" decel="" length="" maxSpeed="" sigma=""/>
-    <route id="" edges=""/>
+    <vType id="Car" accel="1" decel="1" length="3" maxSpeed="60" sigma="0" guiShape="rail/light"/>
+    <route id="route_1" edges="1to2 2to5 5to7 7to6"/>
+    <route id="route_2" edges="9to8 8to5 5to2 2to1"/>
 
-    <flow id="" type="" beg="" end="" number="" route="" color="">
+    <flow id="flow1" type="Car" beg="0" end="0" number="3" route="route_2" color="1,1,1"/>
 </routes>

@@ -1,24 +1,29 @@
 <routes>
-    <vType accel="1" decel="5" id="Car" length="5" maxSpeed="10" sigma="1"/>
-    <vType accel="2" decel="3" id="Bus" length="15" maxSpeed="30" sigma="0"/>
+    <vType accel="1" decel="5" id="Car" length="5" maxSpeed="10" sigma="1" guiShape="passenger"/>
+    <vType accel="3" decel="3" id="Bus" length="150" maxSpeed="30" sigma="0" guiShape="bus"/>
+    <vType accel="2" decel="3" id="Motorcycle" length="5" maxSpeed="30" sigma="1" guiShape="motorcycle"/>
 
-    <route id="rota_0" edges="0to1 1to2 2to3 3to0"/>
-    <route id="rota_0_inv" edges="0to3 3to2 2to1 1to0"/>
+    <routeDistribution id="routedist0">
+        <route id="rota_0" edges="0to1 1to2 2to3 3to0"/>
+    </routeDistribution>
+
+    <!-- <route id="rota_0_inv" edges="0to3 3to2 2to1 1to0"/>
     <route id="rota_1" edges="3to4 4to2 2to1 1to0 0to3"/>
     <route id="rota_2" edges="2to1 1to0 0to4 4to2 2to1"/>
     <route id="rota_3" edges="1to2 2to3 3to4 4to0 0to1"/>
-    <route id="rota_4" edges="4to1 1to2 2to3 3to4"/>
+    <route id="rota_4" edges="4to1 1to2 2to3 3to4"/> -->
 
     <!-- <vehicle depart="1" id="car_1" route="rota_0" type="Car" color="1,0,1"/>
     <vehicle depart="1" id="car_8" route="rota_1" type="Car" color="0,1,0"/> -->
 
 
-    <flow id="carflow1" type="Car" beg="0" end="0" number="2" route="rota_0" color="1,0,0"/>
-    <flow id="carflow2" type="Bus" beg="0" end="0" number="2" route="rota_0_inv" color="0,0,1"/>
+    <flow id="cycleflow1" type="Car" beg="0" end="0" number="5" route="routedist0" color="1,0,0"/>
+    <!-- <flow id="busflow2" type="Bus" beg="0" end="0" number="2" route="rota_0_inv" color="0,0,1"/>
     <flow id="carflow3" type="Car" beg="0" end="0" number="5" route="rota_1" color="0,1,0"/>
-    <flow id="carflow4" type="Bus" beg="0" end="0" number="5" route="rota_2" color="1,1,0"/>
+    <flow id="busflow4" type="Bus" beg="0" end="0" number="5" route="rota_2" color="1,1,0"/>
     <flow id="carflow5" type="Car" beg="0" end="0" number="5" route="rota_3" color="0,1,0"/>
-    <flow id="carflow6" type="Bus" beg="0" end="0" number="5" route="rota_4" color="0,1,1"/>
+    <flow id="busflow6" type="Bus" beg="0" end="0" number="5" route="rota_4" color="0,1,1"/> -->
+
     <!-- <route id="cicle" edges="0to1 1to2 2to0"/>
     <route id="cicle_inv" edges="0to2 2to1 1to0"/>
     <flow id="carflow_test" type="Car" beg="0" end="0" number="2" route="cicle" color="1,1,1"/>
