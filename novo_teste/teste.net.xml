@@ -1663,7 +1663,7 @@
     <connection from="gneE14" to="gneE15" fromLane="0" toLane="0" via=":gneJ15_1_0" dir="s" state="M"/>
     <connection from="gneE15" to="gneE16" fromLane="0" toLane="0" via=":gneJ16_1_0" dir="s" state="M"/>
 
-    <connection from="gneE15" to="-gneE15" fromLane="0" toLane="0" via=":gneJ15_0_0" dir="l" state="M"/>
+    <!-- <connection from="gneE15" to="-gneE15" fromLane="0" toLane="0" via=":gneJ15_0_0" dir="s" state="M"/> -->
 
     <connection from="gneE16" to="gneE17" fromLane="0" toLane="0" via=":gneJ17_0_0" dir="l" state="M"/>
     <connection from="gneE16" to="gneE17" fromLane="0" toLane="1" via=":gneJ17_0_1" dir="l" state="M"/>
