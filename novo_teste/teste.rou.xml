@@ -4,6 +4,7 @@
     <vType id="Motorcycle" accel="5" decel="2" length="3" maxSpeed="60" sigma="1" guiShape="motorcycle"/>
     <route id="route_0" edges="-gneE49 -gneE48 -gneE47 -gneE46 -gneE45 gneE20 -gneE28 -gneE27 -gneE26 -gneE25 -gneE35 -gneE34 -gneE29 gneE21 gneE22 gneE23 gneE24 -gneE35 -gneE34 -gneE29 -gneE20 gneE2 gneE3 -gneE17"/>
     <route id="route_1" edges="-gneE59 -gneE58 -gneE57 -gneE56 -gneE55 -gneE54 -gneE53 -gneE52 -gneE51 -gneE50 -gneE2 gneE36 gneE37 gneE38 gneE39 gneE40 gneE41 gneE42"/>
+
     <!-- <route id="route_2" edges=""/> -->
     <!-- <route id="route_3" edges=""/>
     <route id="route_4" edges=""/>
@@ -14,6 +15,7 @@
     <route id="route_9" edges=""/>
     <route id="route_10" edges=""/>
     <route id="route_11" edges=""/> -->
+
     <flow id="fluxo_carro" beguin="0" end="0" type="Car" number="10" route="route_0" color="1,0,0"/>
     <vehicle id="car1" depart="0" departLane="best" type="Car" route="route_0" color="1,0,1"/>
     <vehicle id="bus1" depart="0" departLane="best" type="Bus" route="route_0" color="1,0,1"/>
