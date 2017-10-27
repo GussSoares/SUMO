@@ -16,6 +16,7 @@
     <route id="route_10" edges=""/>
     <route id="route_11" edges=""/> -->
 
+
     <flow id="fluxo_carro" beguin="0" end="0" type="Car" number="10" route="route_0" color="1,0,0"/>
     <vehicle id="car1" depart="0" departLane="best" type="Car" route="route_0" color="1,0,1"/>
     <vehicle id="bus1" depart="0" departLane="best" type="Bus" route="route_0" color="1,0,1"/>
