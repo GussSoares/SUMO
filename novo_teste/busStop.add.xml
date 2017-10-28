@@ -1,6 +1,6 @@
 <add>
-    <busStop id="busStop#1" name="PARADA#1" lane="gneE57_0" startPos="36.10" endPos="56.10" lines="--"/>
-    <busStop id="busStop#2" name="PARADA#2" lane="gneE52_0" startPos="10.94" endPos="30.94" lines="--"/>
+    <busStop id="busStop_gneE57_0_1" name="PARADA#1" lane="gneE57_0" startPos="36.10" endPos="56.10" lines="--"/>
+    <busStop id="busStop_gneE52_0_0" name="PARADA#2" lane="gneE52_0" startPos="10.94" endPos="30.94" lines="--"/>
     <busStop id="busStop#3" name="PARADA#3" lane="gneE4_0" startPos="10.56" endPos="20.56" lines="--"/>
     <busStop id="busStop#4" name="PARADA#4" lane="gneE9_0" startPos="34.11" endPos="54.11" lines="--"/>
     <busStop id="busStop#5" name="PARADA#5" lane="-gneE32_0" startPos="38.44" endPos="58.44" lines="--"/>
