@@ -3,4 +3,4 @@
 # argv[2] = numero de onibus
 # argv[3] = primeira linha de veiculos no arquivo teste.rou.xml para q ele apague os existentes e insira outros a partir dali
 python add_vehicle.py 30 30 21
-# sumo-gui teste.sumo.cfg
+sumo-gui teste.sumo.cfg
