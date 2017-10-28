@@ -18,7 +18,7 @@ def insert_car(file):
     car_qtd = sys.argv[1]
     with open("teste.rou.xml","a") as file:
         for value in range(0,int(car_qtd)):
-            file.write("\t<vehicle id=\"car{}\" depart=\"{}\" departLane=\"best\" route=\"route_1\" type=\"Car\" color=\".{},.{},.{}\"/>\n".format(value, int(value), random.randint(0,9), random.randint(0,9), random.randint(0,9)))
+            file.write("\t<vehicle id=\"car{}\" depart=\"{}\" departLane=\"best\" route=\"route_{}\" type=\"Car\" color=\".{},.{},.{}\"/>\n".format(value, int(value), random.randint(0,3), random.randint(0,9), random.randint(0,9), random.randint(0,9)))
 
 def insert_bus(file):
     bus_qtd = sys.argv[2]
