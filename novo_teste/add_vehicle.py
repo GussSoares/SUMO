@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 import sys
 
-def remove_lines(files, line):
+def remove_lines(files):
+    line = sys.argv[3]
     with open(files,"r") as file:
         text=file.readlines()
     with open(files,"w") as file:
         for i in text:
-            if text.index(i) >= line-1:
+            if text.index(i) >= int(line)-1:
                 file.write("")
             else:
                 file.write(i)
@@ -30,12 +31,14 @@ def insert_bus(file):
             file.write("\t</vehicle>\n")
             # print("\t<vehicle id=\"car{}\" numer=\"{}\" begin=\"0\" end=\"0\" type=\"Car\"/>".format(value, word))
         # print("</routes>")
-        file.write("</routes>")
+
 
 def main():
-    remove_lines("teste.rou.xml", 63)
+    remove_lines("teste.rou.xml")
     insert_car("teste.rou.xml")
     insert_bus("teste.rou.xml")
+    with open("teste.rou.xml", "a") as file:
+        file.write("</routes>")
 
 if __name__ == "__main__":
     main()
