@@ -17,10 +17,11 @@
     <route id="route_10" edges=""/>
     <route id="route_11" edges=""/> -->
 
-    <flow id="fluxo_carro" beguin="0" end="0" type="Car" number="10" route="route_0" color="1,0,0"/>
-    <vehicle id="car1" depart="0" departLane="best" type="Car" route="route_0" color="1,0,1"/>
+    <!-- <flow id="fluxo_carro" beguin="0" end="0" type="Car" number="10" route="route_0" color="1,0,0"/>-->
+    <!-- <vehicle id="car1" depart="0" departLane="best" type="Car" route="route_0" color="1,0,1"/>
     <vehicle id="bus1" depart="0" departLane="best" type="Bus" route="route_2" color="1,0,1">
         <stop busStop="busStop#1" duration="20"/>
+        <stop busStop="busStop#2" duration="20"/>
     </vehicle>
     <vehicle id="moto1" depart="0" departLane="best" type="Motorcycle" route="route_0" color="1,0,1"/>
     <vehicle id="car2" depart="10" departLane="best" type="Car" route="route_0" color="1,.3,1"/>
@@ -58,5 +59,55 @@
     <vehicle id="car12" depart="110" departLane="best" type="Car" route="route_1" color="1,1,1"/>
     <vehicle id="bus12" depart="110" departLane="best" type="Bus" route="route_1" color="1,1,1"/>
     <vehicle id="moto12" depart="110" departLane="best" type="Motorcycle" route="route_1" color="1,0,1"/>
-
+</routes> -->
+	<vehicle id="car0" depart="10" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car1" depart="11" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car2" depart="12" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car3" depart="13" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car4" depart="14" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car5" depart="15" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car6" depart="16" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car7" depart="17" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car8" depart="18" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car9" depart="19" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car10" depart="20" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car11" depart="21" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car12" depart="22" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car13" depart="23" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car14" depart="24" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car15" depart="25" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car16" depart="26" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car17" depart="27" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car18" depart="28" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car19" depart="29" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car20" depart="30" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car21" depart="31" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car22" depart="32" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car23" depart="33" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car24" depart="34" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car25" depart="35" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car26" depart="36" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car27" depart="37" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car28" depart="38" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car29" depart="39" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car30" depart="40" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car31" depart="41" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car32" depart="42" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car33" depart="43" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car34" depart="44" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car35" depart="45" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car36" depart="46" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car37" depart="47" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car38" depart="48" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car39" depart="49" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car40" depart="50" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car41" depart="51" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car42" depart="52" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car43" depart="53" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car44" depart="54" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car45" depart="55" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car46" depart="56" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car47" depart="57" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car48" depart="58" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
+	<vehicle id="car49" depart="59" departLane="best" route="route_1" type="Car" color=".2,0,.2"/>
 </routes>
